@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="app">
+            <h1>List of the coins</h1>
+            <p class="path"><a href="">Homepage</a> — List of the coins</p>
+            <p class="ifText">Input field</p>
+            <div class="searchBox">
+                <input class="searchField"></input>
+                <button class="searchSubmit">Search</button>
+            </div>
+            <button class="filterElems"><u>Advanced filter</u><img class="thatArrow" src="/images/arrowhead.svg" alt="arrowheaddown"/></button>
+            <div style="display: none" class="advMenu">
+                <form class="mForm">
+                    <div>
+                    <p>Category:</p>
+                    <label class="cB">Historical
+                        <input id="hst" type="checkbox"></label>
+                    <label class="cB">Investment
+                        <input id="inv" type="checkbox"></label>
+                    <label class="cB">Exclusive
+                        <input id="exc" type="checkbox"></label>
+                    </div>
+                    <div>
+                        <label>Country
+                            <select class="sel_country">
+                                <option>---</option>
+                                <option>USA</option>
+                                <option>Canada</option>
+                                <option>The Republic of Vietnam</option>
+                                <option>British South Africa</option>
+                                <option>Estonia</option>
+                                <option>The Belgian Congo</option>
+                                <option>France</option>
+                                <option>Australia</option>
+                                <option>Bolivia</option>
+                                <option>Botswana</option>
+                                <option>British Virgin Islands</option>
+                                <option>Ghana</option>
+                                <option>The Weimar Republic</option>
+                                <option>Egypt</option>
+                                <option>India</option>
+                                <option>Iran</option>
+                                <option>Iceland</option>
+                                <option>China</option>
+                                <option>Costa Rica</option>
+                                <option>Portugal</option>
+                            </select>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="res">
+                
+            </div>
+        </div>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
